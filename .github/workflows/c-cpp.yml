@@ -19,7 +19,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential
 
     - name: Compile directly with g++
-      run: g++ -std=c++17 -Wall -o main Aritmatika.cpp
+      run: g++ -std=c++17 -Wall -o main src/Aritmatika.cpp
 
     - name: Run the program
       run: ./main
