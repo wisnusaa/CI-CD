@@ -9,14 +9,15 @@ int main() {
 	
 	cout << "input data : ";
 	cin >> b;
-	
+
 	cout << "input data c : ";
 	cin >> c;
-	
+
 	cout << "hasil dari a + b : "<< a + b << endl;
 	cout << "hasil dari a - b : "<< a - b << endl;
 	cout << "hasil dari a * b : "<< a * b << endl;
 	cout << "hasil dari a / b : "<< a / b << endl;
 	cout << "hasil dari a - c : "<< a - c << endl;
-	
+    cout << "hasil dari a + c : "<< a + c << endl;
+
 }
